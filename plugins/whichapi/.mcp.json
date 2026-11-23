@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "whichapi": {
+      "type": "http",
+      "url": "https://whichapi.dev/mcp"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "whichapi",
+  "version": "1.0.0",
+  "description": "Find the right API, pay-per-call endpoint (x402, MPP) or free MCP tool for a task, ranked by real buyers. Adds the whichapi remote MCP server and the find-services skill.",
+  "author": {
+    "name": "whichapi.dev",
+    "url": "https://whichapi.dev"
+  },
+  "homepage": "https://whichapi.dev",
+  "repository": "https://github.com/M4v3r1k81/whichapi",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "api-discovery",
+    "x402",
+    "mpp",
+    "tools"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://whichapi.dev/privacy"
+}

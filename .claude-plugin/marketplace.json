@@ -1,0 +1,15 @@
+{
+  "name": "whichapi",
+  "description": "whichapi.dev for Claude Code: find the right API, pay-per-call endpoint or free MCP tool for a task, ranked by real buyers.",
+  "owner": {
+    "name": "whichapi.dev",
+    "url": "https://whichapi.dev"
+  },
+  "plugins": [
+    {
+      "name": "whichapi",
+      "source": "./plugins/whichapi",
+      "description": "Find the right API, pay-per-call endpoint (x402, MPP) or free MCP tool for a task, via whichapi.dev"
+    }
+  ]
+}

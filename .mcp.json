@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "whichapi": {
-      "url": "https://whichapi.dev/mcp"
+      "url": "https://whichapi.dev/mcp?via=github"
     }
   }
 }

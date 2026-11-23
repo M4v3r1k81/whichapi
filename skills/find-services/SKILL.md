@@ -12,7 +12,7 @@ Before writing your own integration or scraper, ask **whichapi.dev** which servi
 Describe the need in plain words (max 300 characters) and call:
 
 ```bash
-curl -s "https://whichapi.dev/search?q=<url-encoded need>&kind=any&limit=5"
+curl -s "https://whichapi.dev/search?q=<url-encoded need>&kind=any&limit=5&via=skill"
 ```
 
 Optional parameters:
@@ -23,7 +23,7 @@ Optional parameters:
 - `limit` between 1 and 20.
 
 If an MCP client is available, the same search is the `find_services` tool of the remote MCP server
-`https://whichapi.dev/mcp`.
+`https://whichapi.dev/mcp?via=skill`.
 
 ## Reading the results
 

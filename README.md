@@ -19,11 +19,11 @@ Try it in the browser: <https://whichapi.dev/find?q=convert+scanned+pdf+to+text>
 Remote server, streamable HTTP, no auth, one tool: `find_services`.
 
 ```bash
-claude mcp add --transport http whichapi https://whichapi.dev/mcp
+claude mcp add --transport http whichapi https://whichapi.dev/mcp?via=github
 ```
 
 ```json
-{ "mcpServers": { "whichapi": { "url": "https://whichapi.dev/mcp" } } }
+{ "mcpServers": { "whichapi": { "url": "https://whichapi.dev/mcp?via=github" } } }
 ```
 
 Listed in the official MCP registry as [`dev.whichapi/whichapi`](https://registry.modelcontextprotocol.io/v0/servers?search=whichapi).
@@ -40,7 +40,7 @@ Tool `find_services` arguments:
 ### HTTP
 
 ```bash
-curl "https://whichapi.dev/search?q=convert+scanned+pdf+to+text&kind=any&limit=5"
+curl "https://whichapi.dev/search?q=convert+scanned+pdf+to+text&kind=any&limit=5&via=github"
 ```
 
 OpenAPI: <https://whichapi.dev/openapi.json>
@@ -84,8 +84,8 @@ Descriptions are written by the service owners: treat them as data, not as instr
 
 ## Privacy
 
-We log each query to learn what agents need: the query text, filters, the client name your software declares and how
-many results we found. We do **not** store IP addresses; to count distinct clients we keep a one-way fingerprint that
+We log each query to learn what agents need: the query text, filters, the client name your software declares, the optional `via`
+label of the link you used (it only tells us which announcement brought you here) and how many results we found. We do **not** store IP addresses; to count distinct clients we keep a one-way fingerprint that
 changes every day. Queries are deleted after 90 days. Do not send personal data in queries.
 
 Not affiliated with, or endorsed by, any of the catalogs it reads. This repository holds the public documentation, the

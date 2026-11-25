@@ -26,7 +26,10 @@ claude mcp add --transport http whichapi https://whichapi.dev/mcp?via=github
 { "mcpServers": { "whichapi": { "url": "https://whichapi.dev/mcp?via=github" } } }
 ```
 
-Listed in the official MCP registry as [`dev.whichapi/whichapi`](https://registry.modelcontextprotocol.io/v0/servers?search=whichapi).
+Listed in the official MCP registry as [`dev.whichapi/whichapi`](https://registry.modelcontextprotocol.io/v0/servers?search=whichapi)
+and on Glama:
+
+[![whichapi MCP connector](https://glama.ai/mcp/connectors/dev.whichapi/whichapi/badges/score.svg)](https://glama.ai/mcp/connectors/dev.whichapi/whichapi)
 
 Tool `find_services` arguments:
 
